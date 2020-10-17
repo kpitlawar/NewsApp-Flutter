@@ -16,6 +16,7 @@ class _HomeState extends State<Home> {
   List<CategoryModal> categories = new List<CategoryModal>();
   List<ArticleModal> articles = new List<ArticleModal>();
 
+
   bool loading = true;
 
   @override
@@ -48,6 +49,7 @@ class _HomeState extends State<Home> {
             )
           ]),
         ),
+        
         body: loading
             ? Center(
                 child: Container(
